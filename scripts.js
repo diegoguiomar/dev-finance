@@ -14,7 +14,7 @@ const Modal = {
         document
             .querySelector('.modal-overlay')
             .classList
-            .remove('active')
+            .remove('active')            
     }
 }
 
@@ -214,7 +214,3 @@ const App = {
 }
 
 App.init()
-
-//Continuar o código dps de 1:17:00
-//Continuar a aula em 1:45:30
-//Continuar copiando os códigos em 2:52:00

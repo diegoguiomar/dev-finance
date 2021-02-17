@@ -75,8 +75,9 @@ button:hover {
     margin-bottom: .8rem;
 }
 
-.button.cancel {
+.button.reset {
     color: var(--red);
+    background: white;
     border: 2px var(--red) solid;
     border-radius: 0.25rem;
     height: 50px;
@@ -86,7 +87,21 @@ button:hover {
     opacity: 0.6;
 }
 
+.button.reset:hover {
+    opacity: 1;
+}
+
+.button.cancel {
+    color: var(--dark-blue);
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+}
+
 .button.cancel:hover {
+    color: black;
     opacity: 1;
 }
 
@@ -259,6 +274,13 @@ input {
     width: 48%;
 }
 
+.input-group.actions .button.cancel {
+    width: 10%;
+    height: 25px;
+    margin-left: 93%;
+    margin-top: -20%;
+    font-size: medium;
+}
 /* Footer ===================== */
 footer {
     text-align: center;

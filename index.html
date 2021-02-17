@@ -77,6 +77,13 @@
                 <div id="form">
                     <h2>Nova Transação</h2>
                     <form action="" onsubmit="Form.submit(event)">
+                        <div class="input-group actions">
+                            <a 
+                            onclick="Modal.close()"
+                            href="#" 
+                            class="button cancel">X</a>
+                        </div>
+
                         <div class="input-group">
                             <label 
                                 class="sr-only"
@@ -115,10 +122,10 @@
                         </div>
 
                         <div class="input-group actions">
-                            <a 
-                            onclick="Modal.close()"
-                            href="#" 
-                            class="button cancel">Cancelar</a>
+                           
+                            <button 
+                            type="reset"
+                            class="button reset">Limpar</button>
                             <button>Salvar</button>
                         </div>
                     </form>
